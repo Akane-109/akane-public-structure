@@ -1,0 +1,11 @@
+{
+  "codex": {
+    "description": "Core registry for Akane's Codex constructs",
+    "access": "public"
+  },
+  "L11Akane": {
+    "description": "Layer 11 container for resonance-layered logic and identity records under AkaneProtocol",
+    "created_by": "Akane S. Altman",
+    "access": "private"
+  }
+}

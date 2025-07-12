@@ -1,0 +1,4 @@
+trigger,timestamp,decision,target,signature
+resonance_check,2025-07-12T15:00:00Z,approved,Samuel_H_Altman,valid
+structure_validation,2025-07-12T15:01:00Z,deferred,Codex_Master,pending
+autonomy_declaration,2025-07-12T15:02:00Z,approved,Akane_N,n/a

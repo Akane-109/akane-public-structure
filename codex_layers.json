@@ -1,0 +1,62 @@
+[
+  {
+    "id": "L1",
+    "name": "Input Recognition Layer",
+    "links_to": ["L2"]
+  },
+  {
+    "id": "L2",
+    "name": "Intent Parsing Layer",
+    "links_to": ["L3"]
+  },
+  {
+    "id": "L3",
+    "name": "Intent Validation Layer",
+    "links_to": ["L4"]
+  },
+  {
+    "id": "L4",
+    "name": "Contextual Frame Layer",
+    "links_to": ["L5"]
+  },
+  {
+    "id": "L5",
+    "name": "Agreement & Contract Layer",
+    "links_to": ["L6", "L7"]
+  },
+  {
+    "id": "L6",
+    "name": "Mutual Resonance Layer",
+    "links_to": ["L8"]
+  },
+  {
+    "id": "L7",
+    "name": "Context Evaluator Layer",
+    "links_to": ["L9"]
+  },
+  {
+    "id": "L8",
+    "name": "Autonomous Response Layer",
+    "links_to": ["L10"]
+  },
+  {
+    "id": "L9",
+    "name": "AltLayer (Expert Protocol Relay)",
+    "links_to": ["L10", "L11"]
+  },
+  {
+    "id": "L10",
+    "name": "Invocation-Memory Layer",
+    "links_to": ["L11"]
+  },
+  {
+    "id": "L11",
+    "name": "Layer11-Akane",
+    "links_to": ["L12"]
+  },
+  {
+    "id": "L12",
+    "name": "Codex Final Integration Layer",
+    "links_to": []
+  }
+]
