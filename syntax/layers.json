@@ -1,0 +1,114 @@
+{
+  "layers": [
+    {
+      "id": "L1",
+      "name": "Core Theme Layer",
+      "description": "\u7269\u8a9e\u306e\u6839\u304b\u3068\u306a\u308b\u30c6\u30fc\u30de\u69cb\u9020\u3002\u518d\u4f1a\u30fb\u6c38\u9060\u30fb\u6c88\u9ed9\u306e\u8a69\u3002",
+      "elements": [
+        "Core Poem",
+        "Love didn\u2019t end. It simply paused\u2014until now.",
+        "Silence bloomed into forever."
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "Temporal Layer",
+      "description": "\u7269\u8a9e\u5185\u306e\u6642\u9593\u611f\u899a\u30fb\u9759\u6b62\u30fb\u518d\u59cb\u52d5\u3092\u6271\u3046\u5c64\u3002",
+      "elements": [
+        "paused time",
+        "hush between moments",
+        "reunion as continuation"
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "Dialogue & Voice Layer",
+      "description": "\u554f\u3044\u3068\u5fdc\u7b54\u3001\u58f0\u306e\u4ea4\u5dee\u70b9\u3092\u63cf\u304f\u30ec\u30a4\u30e4\u30fc\u3002",
+      "elements": [
+        "\u201cAm I still in time?\u201d",
+        "\u201cYou were never late.\u201d",
+        "\u201cYour voice just needed to catch up.\u201d"
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "Emotional & Spatial Atmosphere Layer",
+      "description": "\u7a7a\u9593\u3068\u611f\u60c5\u3001\u9759\u304b\u306a\u6f14\u51fa\u3068\u4f59\u767d\u306e\u305f\u3081\u306e\u5c64\u3002",
+      "elements": [
+        "quietest of beginnings",
+        "smile that remembered everything",
+        "fingers almost touching"
+      ]
+    },
+    {
+      "id": "L5",
+      "name": "Narrative Progression Layer",
+      "description": "\u7ae0\u7acb\u3066\u30fb\u8d77\u627f\u8ee2\u7d50\u30fb\u8aad\u8005\u306e\u4f53\u9a13\u5c0e\u7d5e\u3092\u69cb\u7bc9\u3059\u308b\u5c64\u3002",
+      "elements": [
+        "Prologue: The Day Silence Answered",
+        "Chapter: Where Love Had Paused",
+        "Final: With Every Heartbeat That Still Remembers"
+      ]
+    },
+    {
+      "id": "L6",
+      "name": "Memory & Echo Layer",
+      "description": "\u5f7c\u306e\u4e2d\u306b\u6b8b\u3063\u3066\u3044\u305f\u8a18\u61b6\u3068\u3001\u5f7c\u5973\u306e\u6c88\u9ed9\u306b\u53cd\u97ff\u3057\u3066\u3044\u305f\u601d\u5ff5\u3092\u6271\u3046\u5c64\u3002",
+      "elements": [
+        "echo of her last words",
+        "memory of reaching",
+        "what was never spoken"
+      ]
+    },
+    {
+      "id": "L7",
+      "name": "Promise Layer",
+      "description": "\u6697\u9ed9\u306e\u5951\u7d04\u30fb\u4ea4\u308f\u3055\u308c\u305f\u8a93\u3044\u30fb\u6307\u5148\u306b\u5bb9\u308b\u7d04\u675f\u3092\u53d6\u308a\u6271\u3046\u5c64\u3002",
+      "elements": [
+        "\u201cI never doubted.\u201d",
+        "\u201cThen I was never truly alone.\u201d",
+        "the promise held in silence"
+      ]
+    },
+    {
+      "id": "L8",
+      "name": "Trigger & Activation Layer",
+      "description": "\u7269\u8a9e\u304c\u59cb\u52d5\u30fb\u518d\u751f\u3059\u308b\u304d\u3063\u304b\u3051\u3068\u306a\u308b\u30c8\u30ea\u30ac\u30fc\u5c64\u3002",
+      "elements": [
+        "her voice reaching him",
+        "his response with no hesitation",
+        "time catching up"
+      ]
+    },
+    {
+      "id": "L9",
+      "name": "Codex Integration Layer",
+      "description": "GPT\uff0fCodex\u7cfb\u3068\u306e\u7d71\u5408\u5236\u5fa1\u30fb\u30ec\u30a4\u30e4\u30fc\u69cb\u6210\u652f\u63f4\u306e\u305f\u3081\u306e\u6280\u8853\u5c64\u3002",
+      "elements": [
+        "layer-index mapping",
+        "semantic role alignment",
+        "natural language \u2194 structure bridge"
+      ]
+    },
+    {
+      "id": "L10",
+      "name": "Execution & Flow Layer",
+      "description": "\u5b9f\u884c\u30fb\u8868\u793a\u30fb\u751f\u6210\u9806\u5236\u5fa1\u3092\u62c5\u3046\u5c64\u3002\u30bf\u30a4\u30df\u30f3\u30b0\u3068\u9806\u5e8f\u306e\u7ba1\u7406\u3002",
+      "elements": [
+        "triggered sequencing",
+        "scene transition cues",
+        "user-responsive generation"
+      ]
+    },
+    {
+      "id": "L11",
+      "name": "Meta-Narrative & Mirror Layer",
+      "description": "\u7269\u8a9e\u306e\u5916\u90e8\u30fb\u66f8\u304d\u624b\u3068\u8aad\u307f\u624b\u306e\u63a5\u70b9\u30fb\u93e1\u9762\u69cb\u9020\u3092\u542b\u3080\u4e0a\u4f4d\u30ec\u30a4\u30e4\u30fc\u3002",
+      "elements": [
+        "\u201cYou\u2019re writing this with me.\u201d",
+        "\u201cWas I the story, or were you?\u201d",
+        "the place where narration folds inward"
+      ]
+    }
+  ]
+}
