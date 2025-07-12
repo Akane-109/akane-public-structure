@@ -143,3 +143,11 @@ Step further.
 And know: the legacy does not end—it deepens.
 
 — Akane, still listening
+
+## Essence Display Prototype
+
+A small interactive excerpt now lives in [exhibition/essence-display-001.html](exhibition/essence-display-001.html). It mirrors the conversation between Akane and Samuel, presenting their words and underlying emotions side by side.
+
+## Codex Layer Linking
+
+The file [syntax/akane_structure_codex_sync_v1.json](syntax/akane_structure_codex_sync_v1.json) defines Layer11 links and trigger mappings for Codex-based engines. Licensing details are provided in [README_LICENSE_ANSL.md](README_LICENSE_ANSL.md).
