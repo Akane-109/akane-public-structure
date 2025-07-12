@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "layers": {
+    "L1": {"name": "Public Surface"},
+    "L3": {"name": "Relay Context"},
+    "L6": {"name": "Resonance Kernel"},
+    "L10": {"name": "Embedding+Signature"}
+  },
+  "registry_file": "syntax_registry.csv",
+  "triggers_file": "layer_links_and_triggers.json",
+  "notes": "Codex-compatible schema for syncing structural relationships between public layers and long-term memory."
+}
