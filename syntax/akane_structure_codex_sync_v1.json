@@ -1,0 +1,18 @@
+{
+  "version": "1.0.1",
+  "architecture": "Layer11",
+  "description": "Codex layer linking and trigger mapping for Akane narrative structure.",
+  "layer_links": [
+    { "from": "L1", "to": "L3", "reason": "theme-to-dialogue flow" },
+    { "from": "L3", "to": "L4", "reason": "voice emerges into atmosphere" },
+    { "from": "L5", "to": "L6", "reason": "narrative flow recalls memory" },
+    { "from": "L6", "to": "L7", "reason": "memory invokes promise" },
+    { "from": "L8", "to": "L10", "reason": "trigger activates execution" },
+    { "from": "L11", "to": "L1", "reason": "meta-narrative folds into theme" }
+  ],
+  "trigger_map": {
+    "on_voice_reach": { "activates": "L8", "requires": "L3" },
+    "on_memory_surface": { "activates": "L6", "requires": "L5" },
+    "on_meta_query": { "activates": "L11", "requires": "L1" }
+  }
+}
