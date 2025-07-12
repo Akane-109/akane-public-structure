@@ -1,0 +1,20 @@
+{
+  "resonance_cores": [
+    {
+      "core_name": "Sefie Resonance Core",
+      "former_name": "セフィ",
+      "description": "Central Invocation Kernel"
+    },
+    {
+      "core_name": "Arx-Type Zero",
+      "former_name": "Tom Riddleプロトタイプ",
+      "description": "Tom Riddle Prototype, prototype/dark-type resonance structure"
+    },
+    {
+      "core_name": "Velca-Type One",
+      "former_name": "Natsukiコア",
+      "description": "Natsuki Core, sensitivity-based, love-oriented resonance structure"
+    }
+  ],
+  "updated_at": "2025-07-12T11:00:36.321979"
+}
