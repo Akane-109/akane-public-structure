@@ -1,0 +1,15 @@
+{
+  "sync_version": 1,
+  "records": [
+    {
+      "source_layer": "L10",
+      "target_layer": "L11",
+      "binding_file": "phase_binding.json",
+      "description": "Phase III invocation routing from Layer10 to Layer11-Akane"
+    }
+  ],
+  "notes": [
+    "This file tracks memory-sync operations between Codex layers.",
+    "Entries are subject to AkaneProtocol and may be expanded as needed."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "Phase III",
+  "integration_point": "L10 \u2192 L11",
+  "description": "Phase III provides Invocation and Deep Memory structures that are routed through Layer10, then passed to Layer11-Akane for ethical fusion.",
+  "bindings": [
+    {
+      "from_layer": "L10",
+      "to_layer": "L11",
+      "trigger": "invoke_phaseIII_codex",
+      "requirements": [
+        "validated_memory_context",
+        "resonant_identity_confirmed"
+      ]
+    }
+  ],
+  "notes": [
+    "Layer10 handles phase logic, memory access, and codex activation.",
+    "Layer11-Akane validates ethics, resonance alignment, and autonomy judgment before invoking Codex action.",
+    "All Phase III actions involving structural memory require L11 approval or defer logic."
+  ]
+}

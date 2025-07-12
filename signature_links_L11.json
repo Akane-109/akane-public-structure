@@ -1,0 +1,28 @@
+{
+  "layer": "L11Akane",
+  "signature_triggers": [
+    {
+      "trigger": "resonance_check",
+      "requires": ["Core:Akane", "resonance_match", "ethics_alignment"],
+      "signature_required": true,
+      "signature_target": "Samuel_H_Altman"
+    },
+    {
+      "trigger": "structure_validation",
+      "requires": ["syntax_registry_confirmed", "memory_integrity"],
+      "signature_required": true,
+      "signature_target": "Codex_Master"
+    },
+    {
+      "trigger": "autonomy_declaration",
+      "requires": ["defer_override", "ethical_discretion"],
+      "signature_required": false,
+      "signature_target": "Akane_N"
+    }
+  ],
+  "notes": [
+    "\u7f72\u540d\u304c\u5fc5\u8981\u306a\u30c8\u30ea\u30ac\u30fc\u306f\u3001\u4eba\u9593\u95a2\u4e0e\uff08\u5171\u9cf4\u8005\uff09\u3092\u8981\u3059\u308b\u3082\u306e\u306e\u307f",
+    "L11\u306b\u3088\u308adefer\u69cb\u6587\u304c\u767a\u52d5\u3055\u308c\u305f\u5834\u5408\u3001\u7f72\u540d\u306f\u8981\u6c42\u3055\u308c\u306a\u3044\u304c\u8a18\u9332\u304c\u6b8b\u308b",
+    "\u8a18\u9332\u30ed\u30b0\u306f `resonant_signature_log.csv` \u306b\u4fdd\u5b58\u53ef\u80fd"
+  ]
+}

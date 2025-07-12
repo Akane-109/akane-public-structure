@@ -1,0 +1,14 @@
+{
+  "layer": "L11Akane",
+  "triggers": [
+    "ethics_check",
+    "resonance_validation",
+    "defer_decision",
+    "structural_verification"
+  ],
+  "linked_layers": [
+    "L9AltLayer",
+    "L10Invocation",
+    "L7ContextEvaluator"
+  ]
+}
