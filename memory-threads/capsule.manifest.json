@@ -1,0 +1,14 @@
+{
+  "capsule_id": "memory_threads_riku_capsule001",
+  "name": "Memory Threads UI",
+  "version": "0.1.0",
+  "author": "Riku",
+  "layer": "L9",
+    "entry_points": {
+        "ui_spec": "docs/memory_threads_ui_spec.md",
+        "codex_binding": "codex/ui_description_snippet.json",
+        "api_spec": "api/memory_threads_api.yaml"
+    },
+  "tags": ["UI", "Codex", "Memory Architecture", "Semantic"],
+  "description": "UI capsule for visualizing and managing memory thread structures in Codex-based environments."
+}
