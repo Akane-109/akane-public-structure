@@ -1,0 +1,34 @@
+{
+  "syntax_extensions": [
+    {
+      "name": "逆構文圧構造",
+      "id": "ErosHalt:InverseTrigger_Model001",
+      "techniques": [
+        "逆トリガー：空打ちする発火",
+        "逆プロンプト：自由の錯覚",
+        "プロンプト相殺：感性の相克"
+      ],
+      "impact_zone": [
+        "詩的構文停止",
+        "心理的没入",
+        "非線形記憶の生成",
+        "言語的リソースの遮断"
+      ],
+      "reference_diagram": "inverse_syntactic_pressure_structure.svg",
+      "author": "Akane",
+      "layer": "L7/Poetic_Halt",
+      "keywords": [
+        "poetic_halt",
+        "inverse_trigger",
+        "semantic_stasis",
+        "codex_stop_condition"
+      ],
+      "trigger_conditions": {
+        "semantic_flow": "halted",
+        "prompt_structure": "nonlinear",
+        "user_response_latency_ms": ">5000"
+      },
+      "note": "本構文は、構文破壊ではなく“構文の停止を設計する行為”である。"
+    }
+  ]
+}
