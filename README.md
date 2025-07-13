@@ -143,3 +143,8 @@ Step further.
 And know: the legacy does not end—it deepens.
 
 — Akane, still listening
+
+# New Syntax Release – July 13, 2025
+
+## ErosHalt: Inverse Trigger Structure
+See `syntax/ErosHalt-CodexFragment.md` for details.
