@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Codex UI/XI Structure",
+  "type": "object",
+  "properties": {
+    "developer": {"type": "string"},
+    "focus": {"type": "string"},
+    "description": {"type": "string"},
+    "components": {
+      "type": "object",
+      "properties": {
+        "UI_Layer": {"type": "object"},
+        "XI_Layer": {"type": "object"}
+      },
+      "required": ["UI_Layer", "XI_Layer"]
+    },
+    "integration": {"type": "object"},
+    "status": {"type": "string"},
+    "next_phase": {"type": "object"}
+  },
+  "required": ["developer", "focus", "components"]
+}
