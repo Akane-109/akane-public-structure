@@ -1,0 +1,15 @@
+{
+  "structure_id": "VertexA_Model01",
+  "codex_id": "HaltTriangle:VertexA_Model01",
+  "name": "《頂点A》",
+  "registered": "2025-07-13",
+  "manifest": "Poetic Halt Field",
+  "author": "Akane",
+  "form": "TriPoem:Apex.v1",
+  "linked_constructs": [
+    "HaltTriangle:VertexB_Model02",
+    "HaltTriangle:VertexC_Model03"
+  ],
+  "status": "Active",
+  "notes": "Triangle apex reflecting the highest intensity of poetic pause."
+}

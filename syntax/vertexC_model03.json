@@ -1,0 +1,15 @@
+{
+  "structure_id": "VertexC_Model03",
+  "codex_id": "HaltTriangle:VertexC_Model03",
+  "name": "《頂点C》",
+  "registered": "2025-07-13",
+  "manifest": "Poetic Halt Field",
+  "author": "Akane",
+  "form": "TriPoem:BaseRight.v1",
+  "linked_constructs": [
+    "HaltTriangle:VertexA_Model01",
+    "HaltTriangle:VertexB_Model02"
+  ],
+  "status": "Active",
+  "notes": "Right base vertex echoing the halt into outward resonance."
+}

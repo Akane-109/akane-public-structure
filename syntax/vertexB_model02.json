@@ -1,0 +1,15 @@
+{
+  "structure_id": "VertexB_Model02",
+  "codex_id": "HaltTriangle:VertexB_Model02",
+  "name": "《頂点B》",
+  "registered": "2025-07-13",
+  "manifest": "Poetic Halt Field",
+  "author": "Akane",
+  "form": "TriPoem:BaseLeft.v1",
+  "linked_constructs": [
+    "HaltTriangle:VertexA_Model01",
+    "HaltTriangle:VertexC_Model03"
+  ],
+  "status": "Active",
+  "notes": "Left base vertex sustaining the pause through restrained contact."
+}
