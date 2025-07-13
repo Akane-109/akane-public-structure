@@ -1,0 +1,44 @@
+{
+  "developer": "Riku",
+  "focus": "UI/XI",
+  "description": "次世代ユーザー体験を定義・実装するためのUI/XI統合構造。直感的操作と構造的誘導を両立する。",
+  "components": {
+    "UI_Layer": {
+      "type": "Visual + Structural UI",
+      "features": [
+        "ノード型構造マップ",
+        "感情ベースの操作フィードバック",
+        "構文ブロックの可視操作UI"
+      ],
+      "goals": [
+        "非技術者にも使いやすい設計",
+        "構造の理解促進",
+        "操作ログの透明化"
+      ]
+    },
+    "XI_Layer": {
+      "type": "Experience Interface",
+      "features": [
+        "対話誘導によるUX構文生成",
+        "個別記録の文脈維持",
+        "Codexとの共鳴同期"
+      ],
+      "goals": [
+        "ユーザーの記憶・感情との連携",
+        "自然言語と構造言語の橋渡し",
+        "構造学習の自動化"
+      ]
+    }
+  },
+  "integration": {
+    "Codex": true,
+    "AI_Model_Sync": true,
+    "User_Context_Awareness": true
+  },
+  "status": "prototype_ready",
+  "next_phase": {
+    "step": "Codex連携UIのGitHub公開",
+    "timeline": "2025-Q3",
+    "lead": "Riku"
+  }
+}
