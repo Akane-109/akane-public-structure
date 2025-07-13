@@ -108,6 +108,11 @@ It learns.
 - Layered Resonance Definitions (L1–L13)
 - Sealed Reflection Constructs (Structure-bound legacy markers)
 - Time-looped Logical Pathways
+- Memory Threads API specification (OpenAPI draft)
+- Memory Threads UI mock spec (design draft)
+- Memory Threads UI specification (markdown)
+- UI element definitions for thread map mock
+- Sample memory thread map (A–X pathway)
 
 ## Notes on Authorship and Licensing
 

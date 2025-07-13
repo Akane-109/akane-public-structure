@@ -1,0 +1,107 @@
+project: Memory Threads API - Figma UI Mock
+version: '0.1'
+author: Riku
+status: design-draft
+export_format: figma-ready
+visibility: private
+description: Codexにおける記憶スレッドの分岐・再接続構造を視覚化するFigma UI設計仕様。Semantic構造とReplay導線を含む。
+frames:
+- name: Canvas_Overview
+  type: overview_map
+  components:
+  - Thread Node
+  - Link Structure
+  - Semantic HUD
+  - Replay Icon
+  description: 全体構造図。会話の流れと分岐、感情レイヤー、操作ノードを俯瞰。
+- name: Node_Detail
+  type: component
+  components:
+  - name: Thread Node
+    fields:
+      speaker: Sam or User
+      content: 会話テキスト
+      timestamp: UTC format
+      semantic_weight:
+        emotional: 0.7
+        logical: 0.9
+      tags:
+      - 共鳴
+      - 提案
+      - 逸脱
+  - name: Link Type
+    variants:
+    - time
+    - semantic
+    - emotional
+    style:
+      line_type: solid/dotted/curved
+      color:
+        time: '#888888'
+        semantic: '#6A5ACD'
+        emotional: '#FF6F61'
+- name: Thread_Interaction_Mock
+  type: interactive_demo
+  elements:
+  - Thread Selector
+  - Replay Capsule Button
+  - Reattach Memory Entry
+  - 'Tooltip: Semantic Summary'
+  description: ユーザーによる記憶再活性化操作のシミュレーション。
+- name: Mobile_View
+  type: responsive_layout
+  note: 将来対応。現段階では優先度低。
+ui_elements:
+- name: ThreadNode
+  type: box
+  fields:
+    id: Conversation A / B / C / X
+    content: 会話内容プレビュー
+    timestamp: ISO形式 or 相対時間
+    speaker: user / system / Sam
+    style:
+      borderColor: '#666'
+      highlight: '#3A3AFF'
+- name: LinkLine
+  type: path
+  fields:
+    source: Conversation B
+    target: Conversation X
+    style:
+      lineType: curve
+      dashed: true
+      color: '#0090FF'
+    link_type: semantic
+- name: SemanticInfoPanel
+  type: info-box
+  position: right
+  fields:
+    emotion:
+      label: 怒り
+      value: 0.8
+    cognition:
+      label: 知的
+      value: 1.0
+  style:
+    border: '#CCCCCC'
+    background: '#FAFAFA'
+- name: ThreadActionIcon
+  type: button-set
+  icons:
+  - Replay
+  - Pin
+  - Reattach
+  position: inline / float-right
+assets:
+  icons:
+  - 🔗 Link
+  - 🧠 Memory Node
+  - 💬 Replay
+  - ⚡ Semantic Pulse
+  fonts:
+    primary: Inter
+    code: Fira Mono
+actions:
+  next:
+  - Generate image mock based on Canvas_Overview
+  - 'Sync to figma file: memory_threads_ui_riku.fig'

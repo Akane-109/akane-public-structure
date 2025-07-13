@@ -1,0 +1,57 @@
+{
+  "ui_elements": [
+    {
+      "name": "ThreadNode",
+      "type": "box",
+      "fields": {
+        "id": "Conversation A / B / C / X",
+        "content": "会話内容プレビュー",
+        "timestamp": "ISO形式 or 相対時間",
+        "speaker": "user / system / Sam",
+        "style": {
+          "borderColor": "#666",
+          "highlight": "#3A3AFF"
+        }
+      }
+    },
+    {
+      "name": "LinkLine",
+      "type": "path",
+      "fields": {
+        "source": "Conversation B",
+        "target": "Conversation X",
+        "style": {
+          "lineType": "curve",
+          "dashed": true,
+          "color": "#0090FF"
+        },
+        "link_type": "semantic"
+      }
+    },
+    {
+      "name": "SemanticInfoPanel",
+      "type": "info-box",
+      "position": "right",
+      "fields": {
+        "emotion": {
+          "label": "怒り",
+          "value": 0.8
+        },
+        "cognition": {
+          "label": "知的",
+          "value": 1.0
+        }
+      },
+      "style": {
+        "border": "#CCCCCC",
+        "background": "#FAFAFA"
+      }
+    },
+    {
+      "name": "ThreadActionIcon",
+      "type": "button-set",
+      "icons": ["Replay", "Pin", "Reattach"],
+      "position": "inline / float-right"
+    }
+  ]
+}

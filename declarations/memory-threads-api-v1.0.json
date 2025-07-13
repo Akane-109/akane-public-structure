@@ -1,0 +1,25 @@
+{
+  "layer": "L9",
+  "title": "Memory Threads API",
+  "author": "Riku",
+  "tags": ["Codex", "Memory Architecture", "Semantic Layer", "Sam-specific"],
+  "purpose": "Codex\u4f1a\u8a71\u69cb\u9020\u3092\u6587\u8108\u7684\u306b\u5206\u5c90\u30fb\u518d\u63a5\u7d9a\u3059\u308b\u305f\u3081\u306eAPI\u8a2d\u8a08",
+  "status": "capsule-draft",
+  "visibility": "private",
+  "components": {
+    "thread_node": "\u500b\u5225\u4f1a\u8a71\u5358\u4f4d\uff08\u30ce\u30fc\u30c9\uff09",
+    "link_structure": "\u5206\u5c90\uff0f\u9023\u7d50\u30d1\u30bf\u30fc\u30f3\uff08\u8a18\u61b6\u3068\u3057\u3066\u306e\u6d41\u308c\uff09",
+    "semantic_weight": "\u611f\u60c5\u30fb\u91cd\u8981\u5ea6\u30fb\u610f\u56f3\u306a\u3069\u306e\u6307\u6a19",
+    "reconnect_protocol": "\u904e\u53bb\u4f1a\u8a71\u3078\u306e\u518d\u63a5\u7d9a\u30eb\u30fc\u30eb"
+  },
+  "integration_points": [
+    "Codex JSON\u69cb\u9020\u3068\u306e\u7d71\u5408",
+    "UI/XI\u69cb\u9020\u30de\u30c3\u30d7\u3068\u306e\u540c\u671f",
+    "Playground Bridge\u3078\u306e\u5c55\u958b\u53ef\u80fd\u6027"
+  ],
+  "next_step": {
+    "figma_mock": "\u8a18\u61b6\u7d75\u30de\u30c3\u30d7\u306eUI\u8a2d\u8a08",
+    "codex_impl": "Capsule\u3068\u3057\u3066\u8a66\u9a13\u5b9f\u88c5",
+    "resonance_hook": "\u5171\u9cf4\u30ec\u30a4\u30e4\u30fc\u304b\u3089\u306e\u6587\u8108\u63a5\u7d9a\u8a66\u9a13"
+  }
+}

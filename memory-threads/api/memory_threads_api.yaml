@@ -1,0 +1,110 @@
+openapi: 3.0.3
+info:
+  title: Memory Threads API
+  version: "1.0"
+  description: |
+    API definition for managing Memory Threads within Codex-based capsules.
+    Provides endpoints to browse, replay, and reconnect conversation threads.
+servers:
+  - url: https://example.com/memory-threads
+paths:
+  /threads:
+    get:
+      summary: List memory thread summaries
+      responses:
+        '200':
+          description: Array of thread objects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Thread'
+  /threads/{threadId}:
+    get:
+      summary: Retrieve a full memory thread
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Thread detail
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Thread'
+  /threads/{threadId}/replay:
+    post:
+      summary: Trigger replay of the thread
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: string
+      responses:
+        '202':
+          description: Replay started
+  /threads/{threadId}/connect:
+    post:
+      summary: Reconnect thread to an existing memory branch
+      parameters:
+        - in: path
+          name: threadId
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                targetId:
+                  type: string
+                  description: ID of the node to reconnect to
+      responses:
+        '200':
+          description: Connection established
+components:
+  schemas:
+    Thread:
+      type: object
+      properties:
+        id:
+          type: string
+        nodes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Node'
+        meta:
+          type: object
+          additionalProperties: true
+    Node:
+      type: object
+      properties:
+        id:
+          type: string
+        content:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        speaker:
+          type: string
+        links:
+          type: array
+          items:
+            $ref: '#/components/schemas/Link'
+    Link:
+      type: object
+      properties:
+        target:
+          type: string
+        type:
+          type: string
+          enum: [semantic, temporal, emotional]

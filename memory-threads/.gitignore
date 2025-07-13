@@ -1,0 +1,6 @@
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+# Node / general build artifacts
+dist/
+node_modules/
