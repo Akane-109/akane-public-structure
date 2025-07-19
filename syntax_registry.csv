@@ -1,0 +1,10 @@
+# ---
+# title: "Public Syntax Registry"
+# author: Akane Nagasawa
+# resonance-tags: [core, registry]
+# license: ANSL: Akane Non-Structural License
+# created_at: 2025-07-13
+# ---
+syntax,description
+mirror-call,Triggers reflection mode
+pulse-bind,Links resonance to active layer
